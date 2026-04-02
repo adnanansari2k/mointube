@@ -18,13 +18,15 @@ import { getAuth,
 
 // ── YOUR FIREBASE CONFIG ─────────────────────────────────────────
 const firebaseConfig = {
-  apiKey:            "YOUR_API_KEY",
-  authDomain:        "YOUR_PROJECT.firebaseapp.com",
-  projectId:         "YOUR_PROJECT_ID",
-  storageBucket:     "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId:             "YOUR_APP_ID"
-}
+  apiKey: "AIzaSyAPR9O1zteM57Blyy0_jMztyWPbcBh_Ax8",
+  authDomain: "mointube.firebaseapp.com",
+  projectId: "mointube",
+  storageBucket: "mointube.firebasestorage.app",
+  messagingSenderId: "362849511303",
+  appId: "1:362849511303:web:f4a2fa661f3f9660609522",
+  measurementId: "G-RCQXLSTEPN"
+};
+
 // ─────────────────────────────────────────────────────────────────
 
 const app      = initializeApp(firebaseConfig)
