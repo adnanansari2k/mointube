@@ -1105,7 +1105,7 @@ body{font-family:var(--font-body);background:var(--bg);color:var(--text-primary)
 
 /* Channel Strip */
 .channel-strip-wrap{position:sticky;top:var(--header-h);z-index:80;background:rgba(14,14,16,.92);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--border);height:var(--strip-h)}
-.channel-strip{display:flex;align-items:center;gap:6px;padding:0 16px;height:100%;overflow:hidden}
+.channel-strip{display:flex;align-items:center;gap:6px;padding:0 16px;height:100%;overflow:scroll}
 .channel-chip{flex-shrink:0;height:26px;padding:0 12px;border-radius:20px;border:1px solid var(--border);background:transparent;color:var(--text-muted);font-family:var(--font-body);font-size:.75rem;font-weight:500;cursor:pointer;white-space:nowrap;transition:all .15s ease}
 .channel-chip:hover{border-color:var(--accent);color:var(--text-primary)}
 .channel-chip.active{background:var(--accent);border-color:var(--accent);color:#0e0e10;font-weight:600}
